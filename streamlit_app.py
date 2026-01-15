@@ -35,7 +35,7 @@ bars = ax.barh(
 
 if salarys:
     for i, salary in enumerate(employes_df["salary"]):
-        ax.text( salary + 20, i, f"{salary} €", va="center", color="black")
+        ax.text( salary + 20, i, f"{salary} €", va="center")
 
 if names:
     ax.set_yticks(y_pos)
