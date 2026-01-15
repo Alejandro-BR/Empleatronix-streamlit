@@ -4,19 +4,6 @@ Aplicación web interactiva construida con **Streamlit** para visualizar y explo
 
 [Demo en Streamlit 🔗](https://empleatronix-alejandrobr.streamlit.app/)
 
-## 📂 Estructura del proyecto
-
-```
-.
-├── data/
-│   └── employees.csv
-├── streamlit_app.py
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-```
-
 ## 📊 Datos
 
 La aplicación utiliza el archivo:
@@ -44,6 +31,19 @@ docker-compose up --build
 
 ```
 http://localhost:8501
+```
+
+## 📂 Estructura del proyecto
+
+```
+.
+├── data/
+│   └── employees.csv
+├── streamlit_app.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
 ```
 
 ## ✍️ Créditos
